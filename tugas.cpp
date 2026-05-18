@@ -57,3 +57,23 @@ public:
         }
     }
 };
+
+int main() {
+
+  
+    RekeningBank* rekening1;
+    RekeningBank* rekening2;
+    RekeningBank* rekening3;
+
+ 
+    RekeningSyariah syariah("Andi", 5000000);
+    RekeningKonvensional konvensional("Budi", 3000000);
+    RekeningPremium premium("Citra", 8000000);
+
+
+    rekening1 = &syariah;
+    rekening2 = &konvensional;
+    rekening3 = &premium;
+
+
+}
