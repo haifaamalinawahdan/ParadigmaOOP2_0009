@@ -75,5 +75,11 @@ int main() {
     rekening2 = &konvensional;
     rekening3 = &premium;
 
+    cout << "===== REKENING SYARIAH =====" << endl;
+    rekening1->tampilkanInfo();
+    rekening1->potongAdmin();
+    rekening1->tampilkanInfo();
+
+
 
 }
