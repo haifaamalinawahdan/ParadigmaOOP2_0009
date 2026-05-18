@@ -11,8 +11,12 @@ public:
         namaNasabah = nama;
         saldo = saldoAwal;
     }
-    
+
     virtual void potongAdmin() = 0;
 
+    virtual void tampilkanInfo() {
+        cout << "Nama Nasabah : " << namaNasabah << endl;
+        cout << "Saldo        : Rp " << saldo << endl;
+    }
 
 };
