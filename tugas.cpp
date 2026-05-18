@@ -11,5 +11,8 @@ public:
         namaNasabah = nama;
         saldo = saldoAwal;
     }
+    
+    virtual void potongAdmin() = 0;
+
 
 };
