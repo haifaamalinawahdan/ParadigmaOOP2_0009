@@ -85,6 +85,13 @@ int main() {
     rekening2->potongAdmin();
     rekening2->tampilkanInfo();
 
+    cout << "\n===== REKENING PREMIUM =====" << endl;
+    rekening3->tampilkanInfo();
+    rekening3->potongAdmin();
+    rekening3->tampilkanInfo();
+
+    return 0;
+
 
 
 }
