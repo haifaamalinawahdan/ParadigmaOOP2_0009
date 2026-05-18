@@ -80,6 +80,11 @@ int main() {
     rekening1->potongAdmin();
     rekening1->tampilkanInfo();
 
+    cout << "\n===== REKENING KONVENSIONAL =====" << endl;
+    rekening2->tampilkanInfo();
+    rekening2->potongAdmin();
+    rekening2->tampilkanInfo();
+
 
 
 }
